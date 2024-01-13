@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-style: hidden ;
+ 
+}
+
+li, a, button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #F7EFE5;
+    background-image: url(bck5.jpg);
+   
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;h1 {
+        font-family: fantasy;
+        font-style: initial;
+        text-align: center;
+    }
+}
+
+nav {
+    margin-top: 0;
+    background: #fffbf5;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_links{ 
+    list-style: none
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #000000;
+}
+
+.foot{
+    background-color: aqua;
+}
+
+footer {
+    background-color: #FFFBF5;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.copyright {
+    font-size: 14px;
+}

@@ -1,0 +1,92 @@
+.headerimg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.headerimg img{
+    width:85%;
+    height:500px;
+}
+
+.title{
+    position: absolute;
+    bottom: 2px;
+    width: 50%;
+    background-color:#FFFBF5;
+    text-align: center;
+    margin: 0 100px 0 380px;
+    font-family: 'Cinzel';font-size: 22px;
+    justify-content: center;
+    
+}
+
+h3 {
+    font-family: 'Outfit';
+    font-size: 22px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column; /* Display items in a column */
+    margin-left: 25%;
+    font-size: 24px;
+    width: 200px;
+}
+
+h4 {
+    font-family: 'Outfit';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:500;
+    letter-spacing: -1px;
+    margin-left: 23%;
+    margin-top: 10px;
+    width: 250px;
+    
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px; 
+    /* width: 250%; */
+    
+}
+
+.contact-item i {
+    margin-right: 10px;
+    color: #333;
+}
+
+.containerss {
+    display: flex;
+}
+
+h5{
+    font-family: 'Outfit';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.locat{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:500;
+    letter-spacing: -1px;
+    margin-top: 6%;
+    margin-left: 25%;
+    width:20%;
+
+}

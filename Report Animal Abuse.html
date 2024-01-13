@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption | Report Animal Abuse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rliel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+    <link rel="stylesheet" href="Report.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src="Report.js"></script>
+
+</head>
+<header>
+
+    <a href="home.html"><img class="logo" src="logo.jpg" alt="logo" style="width:80px;margin-right:50px;">
+    </a>
+    <h1 class="intro"> PET ADOPTION</h1>
+
+</header>
+
+<body>
+    <nav>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">MENU <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="adopt.html">ADOPT</a></li>
+                    <li><a href="donate.html">DONATE</a></li>
+                    <li><a href="Volunteer.html">VOLUNTEER</a></li>
+                    <li><a href="PetCare.html">CARE TIPS</a></li>
+                    <li><a href="Report Animal Abuse.html">REPORT </a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT US <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="History.html">HISTORY</a></li>
+                    <li><a href="facility.html">OUR FACILITIES</a></li>
+                </ul>
+            </li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+</body>
+<body>
+
+<div class="image-container">
+            <div class="image">
+                <img src="abuse1.jpeg" alt="abuse-1">
+                <p>Help protect animals from abuse</p>
+            </div>
+            <div class="image">
+                <img src="abuse2.jpeg" alt="abuse-2">
+                <p>Join us in the fight against animal cruelty</p>
+            </div>
+            <div class="image">
+                <img src="abuse3.jpeg" alt="abuse-3">
+                <p>Speak up for those who can't</p>
+            </div>
+        </div>
+
+
+    <section>
+        <h2><strong>Report Animal Abuse &#128575</strong></h2>
+        <p>Witnessed animal abuse or have information to share?<br> Be their voice and help us make a difference. Help us to STOP ANIMAL ABUSE! &#128683 </br></p>
+
+        <form id="volunteerForm" action="#" method="post" onsubmit="showThankYouMessage(); return false;">
+	<h2><strong>Submit Your Report Here! &#128008</strong></h2>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Your Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address">Location of Incident:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <label for="Describe">Describe the animal abuse:</label>
+            <textarea id="describe" name="describe" rows="4" required></textarea>
+	
+	    <div class="button-container">	
+            <br>
+            <button type="submit" style="background-color: green; color: #fff;">Submit Report</button></br>
+	    <br>
+            <button type="button" onclick="clearForm()" style="background-color: #FF0000; color: #fff;">Clear Form</button></br>
+	    </div>
+        </form>
+
+        <div id="thank-you-message">
+            <p><strong>Report submitted successfully! Thank you for your concern about animal abuse.</Strong></p>
+	    <p> We will make an action soon, thank you for your concern &#128159</p>
+        </div>
+
+    </section>
+    
+        <footer>
+        <ul class="social-icons">
+            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+        <p class="copyright">&copy; 2023 Malaysian Pet Addoption. All Rights Reserved.</p>
+    </footer>
+
+
+</body>
+</html>
+
+
+
+

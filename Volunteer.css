@@ -1,0 +1,195 @@
+      body {
+            font-family: Cambria;
+            margin: 0;
+            padding: 0;
+            background-color: #F7EFE5;
+	    background-image: url(background.jpg);
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #FFFBF5;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+	    font-size: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        select {
+            width: 30%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        .mytext {
+            width: 30%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #824646;
+        }
+
+	.button-container {
+            text-align: center;
+	}
+
+        #thank-you-message {
+            display: none;
+            color: #333;
+            text-align: center;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+li, a{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #F7EFE5;
+    background-image: url(background.jpg);   
+}
+
+h1.intro {
+    font-family: 'Black Ops One';
+    font-size: 80px;
+    font-weight:bold;
+    /* font-style: initial; */
+    text-align: center;
+    display: flex;
+    color: #000000;
+    padding-right: 300px;
+    
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;h1 {
+        font-family: fantasy;
+        font-style: initial;
+        text-align: center;
+    }
+}
+
+nav {
+    margin-top: 0;
+    background: #fffbf5;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_links{ 
+    list-style: none
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #000000;
+}
+
+.foot{
+    background-color: aqua;
+}
+
+footer {
+    background-color: #FFFBF5;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+.container-fluid {
+            padding: 30px 20px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            background-color: #674188;
+	    color: #FFFBF5;
+        }
+
+.animated-element {
+    transform: translateZ(0);
+}

@@ -1,0 +1,212 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: Arial;
+  font-size: px;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.container img {
+  vertical-align: middle;
+  width:100%;
+    height:500px;
+  
+
+}
+
+.container .content {
+  position: absolute;
+  top: 0;
+  color: #F7EFE5;
+  width: 100%;
+  /* padding: 5px; */
+  font-size: 50%;
+  text-align: center;
+  font-weight:bold;
+  font-style: oblique;
+  font-family: 'Black Ops One';
+  padding-right: 5%;
+  padding-top: 16%;
+
+}
+
+.content h2 {
+  font-size: 100px;
+  margin-top: 14%;
+}
+/* .content {
+  text-align: center;
+  font-size: 300px;
+  font-weight: bold;
+  font-style: oblique;
+ 
+
+} */
+
+.founder{
+  text-align: left;
+  padding-left: 11.7%;
+  font-weight:bold;
+  font-style: oblique;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.float-img{
+  margin-left: 11.7%;
+  float:left;
+  margin-right: 15px;
+  margin-bottom: 3px;
+  border: solid black 1px;
+  padding: 2px;
+}
+
+.biodata{
+  margin-left: 11.7%;
+  margin-right: 11.7%;
+  background-color: #FFFBF5;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+.cover{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 150px;
+}
+
+.mission_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.mission_box p{
+  text-align: center;
+  width: 300%;
+  border-radius: 3px;
+  background-color: #FFFBF5;
+  font-size: 16px;
+}
+
+.mission_box h4 {
+  text-align: left;
+  padding-left: 11.7%;
+  font-weight:bold;
+  font-style: oblique;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+.box{
+  width: 100px;
+  margin:10px;
+  padding: 0;
+}
+
+.box img {
+  width: 300px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.box h4{
+  font-weight:bold;
+  font-style: oblique;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 108%;
+  text-align: center;
+  display: flex;
+}
+
+
+.titleMission{
+  text-align: left;
+  padding-left: 11.7%;
+  font-weight:bold;
+  font-style: oblique;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titleMission h4{
+  font-size: 25px;
+}
+
+.titleVission{
+  text-align: left;
+  padding-left: 11.7%;
+  font-weight:bold;
+  font-style: oblique;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titleVission h5{
+  font-size: 25px;
+}
+
+.textVission {
+  margin-top: 2.5%;
+  font-size: 17px;
+  text-align: center;
+  margin-left: 11.7%;
+  margin-right: 11.7%;
+  background-color: #FFFBF5;
+  border-radius: 3px;
+ 
+}
+
+h6{
+  font-size: 25px;
+  text-align: center;
+  font-weight:bold;
+  font-style: oblique;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse:separate;
+  width: 20%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  font-size: 17px;
+}
+
+th, td {
+  border: 1px solid #c3acd0;
+  text-align: left;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th {
+  background-color: #FFFBF5;
+  color: #000;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #fffbf5;
+}
+
+tr:nth-child(odd) {
+  background-color: #FFFBF5;
+}
+
+tr,td {
+  text-align: center;
+}
+
+

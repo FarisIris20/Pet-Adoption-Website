@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption | Volunteer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rliel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+    <link rel="stylesheet" href="Volunteer.css">
+    <link rel="stylesheet" href="navbar2.css">
+    <script src="Volunteer.js"></script>
+
+</head>
+<header>
+
+    <a href="home.html"><img class="logo" src="logo.jpg" alt="logo" style="width:80px;margin-right:50px;">
+    </a>
+    <h1 class="intro"> PET ADOPTION</h1>
+
+</header>
+
+<body>
+    <nav>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">MENU <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="adopt.html">ADOPT</a></li>
+                    <li><a href="donate.html">DONATE</a></li>
+                    <li><a href="Volunteer.html">VOLUNTEER</a></li>
+                    <li><a href="PetCare.html">CARE TIPS</a></li>
+                    <li><a href="Report Animal Abuse.html">REPORT </a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT US <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="History.html">HISTORY</a></li>
+                    <li><a href="facility.html">OUR FACILITIES</a></li>
+                </ul>
+            </li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+</body>
+<body>
+<div id="PetCare" class="container-fluid">
+      <h1><strong>&#128062 Become A Volunteer &#128062</strong></h1><br>
+      <h3>"Joining as a volunteer for pet adoption not only transforms the lives of furry companions waiting for a loving home but also allows you to be a beacon of hope and compassion in their journey towards a brighter, happier future."</h3></br>
+    </div>
+
+    <section>
+        <h1><strong>Why Volunteer?</strong></h1>
+        <p>Volunteering with our pet adoption organization is a rewarding experience. You can help provide care, love, and support to animals in need. Join us in making a difference!</p>
+
+        <h1><strong>Current Volunteer Opportunities</strong></h1>
+        <p>We have various opportunities available for volunteers, including pet care, adoption events, fundraising, and more.</p>
+
+        <form id="volunteerForm" action="#" method="post" onsubmit="showThankYouMessage(); return false;">
+	<h1><strong>Submit Your Application Here! &#128008</strong></h1>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Your Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address">Your Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <label for="interests">Why you want to become a volunteer? :</label>
+            <textarea id="interests" name="interests" rows="4" required></textarea>
+
+            <label for="activity">Choose Activity you want: </label>
+            <select name="activity">
+                <option value="Pet Care" selected>Pet Care</option>
+                <option value="Adoption Event">Adoption Event</option>
+                <option value="Fundraising">Fundraising</option>
+            </select>
+
+            <label for="date">Choose date when you're free :</label>
+            <input type="date" id="Date" name="Date" class="mytext">
+	
+	    <div class="button-container">	
+            <br>
+            <button type="submit" style="background-color: green; color: #fff;">Submit Interest</button></br>
+	    <br>
+            <button type="button" onclick="clearForm()" style="background-color: #FF0000; color: #fff;">Clear Form</button></br>
+	    </div>
+        </form>
+
+        <div id="thank-you-message">
+            <p><strong>Thank you for volunteering! We appreciate your commitment to making a difference in the lives of animals.</strong></p>
+	    <p> We will contact you soon, thank you for joining us &#128159</p>
+        </div>
+
+    </section>
+    
+        <footer>
+        <ul class="social-icons">
+            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+        <p class="copyright">&copy; 2023 Malaysian Pet Addoption. All Rights Reserved.</p>
+    </footer>
+
+
+</body>
+</html>
+

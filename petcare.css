@@ -1,0 +1,246 @@
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Cambria;
+            background-color: #FFFBF5;
+	    background-image: url(background.jpg);
+        }
+
+        .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("petcare.jpeg");
+            height: 50vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .container-a,
+        .container-b {
+            padding: 30px 20px;
+            text-align: left;
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            background-color: #FFFBF5;
+        }
+	
+	.container-fluid {
+            padding: 30px 20px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            background-color: #F7EFE5;
+        }
+
+        .container-b {
+            background-color: #F7EFE5;
+        }
+
+        div.center {
+            text-align: center;
+        }
+
+        div.border {
+            border-style: solid;
+            border-color: #C3ACD0;
+            border-width: 2px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #FFF5FF;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .container-fluid h1,
+        .container-a h1,
+        .container-b h1 {
+            color: #4B0082;
+        }
+
+        .container-fluid h3,
+        .container-a h3,
+        .container-b h3 {
+            color: black;
+        }
+
+        .container-fluid p,
+        .container-a p,
+        .container-b p {
+            color: black;
+        }
+
+        .container-fluid img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .container-fluid img:hover {
+            transform: scale(1.05);
+        }
+
+        .youtube-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+        }
+
+        .youtube-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-style: hidden ;
+ 
+}
+
+li, a, button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #F7EFE5;
+    background-image: url(background.jpg);
+   
+}
+
+h1.intro {
+    font-family: 'Black Ops One';
+    font-size: 80px;
+    font-weight:bold;
+    /* font-style: initial; */
+    text-align: center;
+    display: flex;
+    color: #000000;
+    padding-right: 300px;
+    
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;h1 {
+        font-family: fantasy;
+        font-style: initial;
+        text-align: center;
+    }
+}
+
+nav {
+    margin-top: 0;
+    background: #fffbf5;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_links{ 
+    list-style: none
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #000000;
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    /* background-color: rgb(255, 251, 251); */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button i {
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #000000; /* Set the color to your preference */
+}
+
+.foot{
+    background-color: aqua;
+}
+
+footer {
+    background-color: #FFFBF5;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.copyright {
+    font-size: 14px;
+}

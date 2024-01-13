@@ -1,0 +1,123 @@
+.headerimg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.headerimg img{
+    width:85%;
+    height:500px;
+}
+
+.title{
+    position: absolute;
+    bottom: 2px;
+    width: 60%;
+    background-color:#FFFBF5;
+    text-align: center;
+    margin: 0 120px 0 290px;
+}
+
+.point{
+    justify-content: center;
+}
+
+.itik {
+    margin-left: 30%;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+  }
+
+  .mySlides {
+    display: none;
+    box-sizing: border-box;
+  }
+
+  img {
+    vertical-align: middle;
+    box-sizing: border-box;
+  }
+
+  .mySlides img {
+    height: 500px;
+  }
+  .slideshow-container {
+    max-width: 50%;
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    box-sizing: border-box;
+  }
+
+  .active {
+    background-color: #717171;
+    box-sizing: border-box;
+  }
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    box-sizing: border-box;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+      
+    }
+
+    to {
+      opacity: 1
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+
+    to {
+      opacity: 1
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    .text {
+      font-size: 11px;
+    }
+  }
